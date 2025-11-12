@@ -1,0 +1,4 @@
+{
+  "/ads_archive": "/ads",
+  "/ads_archive?*": "/ads?$1"
+}

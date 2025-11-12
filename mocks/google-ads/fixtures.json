@@ -1,0 +1,116 @@
+{
+  "campaigns": [
+    {
+      "id": "21843576928",
+      "name": "Just Do It Marathon 2025",
+      "status": "ENABLED",
+      "budget_micros": 1500000000000,
+      "channel": "YouTube",
+      "start_date": "2025-09-11",
+      "end_date": "2025-11-11",
+      "metrics": {
+        "impressions": 4250000,
+        "clicks": 127500,
+        "cost_micros": 1425000000000,
+        "conversions": 5100,
+        "conversion_value_micros": 2550000000000
+      }
+    },
+    {
+      "id": "21843576929",
+      "name": "Nike Air Innovations",
+      "status": "ENABLED",
+      "budget_micros": 950000000000,
+      "channel": "Google Display",
+      "start_date": "2025-09-15",
+      "end_date": "2025-11-11",
+      "metrics": {
+        "impressions": 2100000,
+        "clicks": 63000,
+        "cost_micros": 875000000000,
+        "conversions": 2800,
+        "conversion_value_micros": 1400000000000
+      }
+    },
+    {
+      "id": "21843576930",
+      "name": "Find Your Greatness Campaign",
+      "status": "ENABLED",
+      "budget_micros": 1200000000000,
+      "channel": "Search",
+      "start_date": "2025-09-20",
+      "end_date": "2025-11-11",
+      "metrics": {
+        "impressions": 3800000,
+        "clicks": 228000,
+        "cost_micros": 1140000000000,
+        "conversions": 6840,
+        "conversion_value_micros": 3420000000000
+      }
+    },
+    {
+      "id": "21843576931",
+      "name": "Nike React Performance",
+      "status": "PAUSED",
+      "budget_micros": 700000000000,
+      "channel": "YouTube",
+      "start_date": "2025-10-01",
+      "end_date": "2025-11-11",
+      "metrics": {
+        "impressions": 1850000,
+        "clicks": 55500,
+        "cost_micros": 665000000000,
+        "conversions": 1665,
+        "conversion_value_micros": 832500000000
+      }
+    },
+    {
+      "id": "21843576932",
+      "name": "Unlimited Athlete Series",
+      "status": "ENABLED",
+      "budget_micros": 2000000000000,
+      "channel": "Google Display",
+      "start_date": "2025-09-11",
+      "end_date": "2025-11-11",
+      "metrics": {
+        "impressions": 5600000,
+        "clicks": 168000,
+        "cost_micros": 1890000000000,
+        "conversions": 8400,
+        "conversion_value_micros": 4200000000000
+      }
+    },
+    {
+      "id": "21843576933",
+      "name": "Peak Performance Search",
+      "status": "ENABLED",
+      "budget_micros": 1100000000000,
+      "channel": "Search",
+      "start_date": "2025-09-25",
+      "end_date": "2025-11-11",
+      "metrics": {
+        "impressions": 2950000,
+        "clicks": 177000,
+        "cost_micros": 1045000000000,
+        "conversions": 5310,
+        "conversion_value_micros": 2655000000000
+      }
+    },
+    {
+      "id": "21843576934",
+      "name": "Innovation Hub Digital",
+      "status": "ENABLED",
+      "budget_micros": 800000000000,
+      "channel": "YouTube",
+      "start_date": "2025-10-05",
+      "end_date": "2025-11-11",
+      "metrics": {
+        "impressions": 2200000,
+        "clicks": 66000,
+        "cost_micros": 758000000000,
+        "conversions": 1980,
+        "conversion_value_micros": 990000000000
+      }
+    }
+  ]
+}

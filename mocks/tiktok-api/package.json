@@ -1,0 +1,27 @@
+{
+  "name": "tiktok-ads-api-mock",
+  "version": "1.0.0",
+  "description": "Mock server for TikTok Ads API (business-api.tiktok.com/open_api/v1.3/)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tiktok",
+    "ads",
+    "api",
+    "mock",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

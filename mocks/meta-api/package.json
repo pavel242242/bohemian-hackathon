@@ -1,0 +1,12 @@
+{
+  "name": "meta-api-mock",
+  "version": "1.0.0",
+  "description": "Mock Meta Ad Library API for Nike campaigns demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch meta-ads.json --port 3001 --routes routes.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

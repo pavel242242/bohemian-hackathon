@@ -1,0 +1,172 @@
+{
+  "ads": [
+    {
+      "id": "123456789",
+      "ad_creative_bodies": ["Air Max Day is here! Celebrate with exclusive drops and limited editions. Shop now."],
+      "ad_delivery_start_time": "2025-09-15T00:00:00Z",
+      "ad_delivery_stop_time": "2025-10-15T00:00:00Z",
+      "page_name": "Nike",
+      "impressions": {
+        "lower_bound": "8000000",
+        "upper_bound": "10000000"
+      },
+      "spend": {
+        "lower_bound": "2000000",
+        "upper_bound": "2500000"
+      },
+      "currency": "USD",
+      "publisher_platforms": ["facebook", "instagram"],
+      "demographic_distribution": {
+        "age": ["18-24", "25-34", "35-44"],
+        "gender": ["male", "female"]
+      }
+    },
+    {
+      "id": "234567890",
+      "ad_creative_bodies": ["Nike By You: Design your own custom sneakers. Make it yours."],
+      "ad_delivery_start_time": "2025-09-20T00:00:00Z",
+      "ad_delivery_stop_time": "2025-11-01T00:00:00Z",
+      "page_name": "Nike",
+      "impressions": {
+        "lower_bound": "5000000",
+        "upper_bound": "6500000"
+      },
+      "spend": {
+        "lower_bound": "1000000",
+        "upper_bound": "1200000"
+      },
+      "currency": "USD",
+      "publisher_platforms": ["facebook", "instagram"],
+      "demographic_distribution": {
+        "age": ["18-24", "25-34"],
+        "gender": ["male", "female"]
+      }
+    },
+    {
+      "id": "345678901",
+      "ad_creative_bodies": ["Women's Basketball Spotlight: Featuring the latest from our athlete partners."],
+      "ad_delivery_start_time": "2025-09-25T00:00:00Z",
+      "ad_delivery_stop_time": "2025-10-25T00:00:00Z",
+      "page_name": "Nike",
+      "impressions": {
+        "lower_bound": "4500000",
+        "upper_bound": "5500000"
+      },
+      "spend": {
+        "lower_bound": "900000",
+        "upper_bound": "1100000"
+      },
+      "currency": "USD",
+      "publisher_platforms": ["facebook", "instagram"],
+      "demographic_distribution": {
+        "age": ["18-24", "25-34", "35-44"],
+        "gender": ["female"]
+      }
+    },
+    {
+      "id": "456789012",
+      "ad_creative_bodies": ["Run with the Pegasus 41. Engineered for speed, built for comfort."],
+      "ad_delivery_start_time": "2025-10-01T00:00:00Z",
+      "ad_delivery_stop_time": "2025-11-10T00:00:00Z",
+      "page_name": "Nike",
+      "impressions": {
+        "lower_bound": "3000000",
+        "upper_bound": "4000000"
+      },
+      "spend": {
+        "lower_bound": "700000",
+        "upper_bound": "850000"
+      },
+      "currency": "USD",
+      "publisher_platforms": ["facebook", "instagram"],
+      "demographic_distribution": {
+        "age": ["25-34", "35-44", "45-54"],
+        "gender": ["male", "female"]
+      }
+    },
+    {
+      "id": "567890123",
+      "ad_creative_bodies": ["Fall Collection: Fresh styles for cooler weather. Shop the latest."],
+      "ad_delivery_start_time": "2025-09-18T00:00:00Z",
+      "ad_delivery_stop_time": "2025-10-20T00:00:00Z",
+      "page_name": "Nike",
+      "impressions": {
+        "lower_bound": "6000000",
+        "upper_bound": "7500000"
+      },
+      "spend": {
+        "lower_bound": "1200000",
+        "upper_bound": "1500000"
+      },
+      "currency": "USD",
+      "publisher_platforms": ["facebook", "instagram"],
+      "demographic_distribution": {
+        "age": ["18-24", "25-34", "35-44"],
+        "gender": ["male", "female"]
+      }
+    },
+    {
+      "id": "678901234",
+      "ad_creative_bodies": ["Just Do It: Your fitness journey starts now. New year, new goals."],
+      "ad_delivery_start_time": "2025-10-05T00:00:00Z",
+      "ad_delivery_stop_time": "2025-11-05T00:00:00Z",
+      "page_name": "Nike",
+      "impressions": {
+        "lower_bound": "9000000",
+        "upper_bound": "11000000"
+      },
+      "spend": {
+        "lower_bound": "1500000",
+        "upper_bound": "1800000"
+      },
+      "currency": "USD",
+      "publisher_platforms": ["facebook", "instagram"],
+      "demographic_distribution": {
+        "age": ["18-24", "25-34", "35-44", "45-54"],
+        "gender": ["male", "female"]
+      }
+    },
+    {
+      "id": "789012345",
+      "ad_creative_bodies": ["Retro Sneaker Revival: Classic styles, modern comfort. Shop iconic designs."],
+      "ad_delivery_start_time": "2025-09-22T00:00:00Z",
+      "ad_delivery_stop_time": "2025-10-18T00:00:00Z",
+      "page_name": "Nike",
+      "impressions": {
+        "lower_bound": "3500000",
+        "upper_bound": "4500000"
+      },
+      "spend": {
+        "lower_bound": "650000",
+        "upper_bound": "780000"
+      },
+      "currency": "USD",
+      "publisher_platforms": ["facebook", "instagram"],
+      "demographic_distribution": {
+        "age": ["25-34", "35-44", "45-54"],
+        "gender": ["male", "female"]
+      }
+    },
+    {
+      "id": "890123456",
+      "ad_creative_bodies": ["Nike Training Club: Free workouts, expert guidance. Download the app today."],
+      "ad_delivery_start_time": "2025-09-28T00:00:00Z",
+      "ad_delivery_stop_time": "2025-10-28T00:00:00Z",
+      "page_name": "Nike",
+      "impressions": {
+        "lower_bound": "5500000",
+        "upper_bound": "7000000"
+      },
+      "spend": {
+        "lower_bound": "950000",
+        "upper_bound": "1150000"
+      },
+      "currency": "USD",
+      "publisher_platforms": ["facebook", "instagram"],
+      "demographic_distribution": {
+        "age": ["18-24", "25-34", "35-44"],
+        "gender": ["male", "female"]
+      }
+    }
+  ]
+}

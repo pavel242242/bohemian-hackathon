@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pipelines/venv/
+pipelines/ENV/
+pipelines/env/
+*.egg-info/
+dist/
+build/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.Claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+ui/.svelte-kit/
+ui/build/
+backend/dist/

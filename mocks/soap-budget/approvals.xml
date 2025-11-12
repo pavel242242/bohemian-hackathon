@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BudgetApprovals>
+  <Approval>
+    <ApprovalID>APR-001</ApprovalID>
+    <CampaignID>AirMaxDay</CampaignID>
+    <CampaignName>Air Max Day Campaign</CampaignName>
+    <ApprovedAmount>2250000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-09-01</ApprovalDate>
+    <EffectiveDate>2025-09-15</EffectiveDate>
+    <ApproverName>Sarah Johnson</ApproverName>
+    <ApproverEmail>sarah.johnson@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Q3 summer campaign launch</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-002</ApprovalID>
+    <CampaignID>NikeByYou</CampaignID>
+    <CampaignName>Nike By You Customization Campaign</CampaignName>
+    <ApprovedAmount>1100000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-09-06</ApprovalDate>
+    <EffectiveDate>2025-09-20</EffectiveDate>
+    <ApproverName>Michael Chen</ApproverName>
+    <ApproverEmail>michael.chen@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Product customization feature promotion</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-003</ApprovalID>
+    <CampaignID>WomensBasketball</CampaignID>
+    <CampaignName>Women's Basketball Spotlight</CampaignName>
+    <ApprovedAmount>1000000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-09-11</ApprovalDate>
+    <EffectiveDate>2025-09-25</EffectiveDate>
+    <ApproverName>Jennifer Williams</ApproverName>
+    <ApproverEmail>jennifer.williams@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Sports marketing initiative - women athletes</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-004</ApprovalID>
+    <CampaignID>Pegasus41</CampaignID>
+    <CampaignName>Pegasus 41 Running Shoe</CampaignName>
+    <ApprovedAmount>775000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-09-17</ApprovalDate>
+    <EffectiveDate>2025-10-01</EffectiveDate>
+    <ApproverName>David Martinez</ApproverName>
+    <ApproverEmail>david.martinez@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Product launch campaign</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-005</ApprovalID>
+    <CampaignID>FallCollection</CampaignID>
+    <CampaignName>Fall Collection 2025</CampaignName>
+    <ApprovedAmount>1350000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-09-04</ApprovalDate>
+    <EffectiveDate>2025-09-18</EffectiveDate>
+    <ApproverName>Emily Rodriguez</ApproverName>
+    <ApproverEmail>emily.rodriguez@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Seasonal campaign - Fall apparel</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-006</ApprovalID>
+    <CampaignID>JustDoIt</CampaignID>
+    <CampaignName>Just Do It Fitness Initiative</CampaignName>
+    <ApprovedAmount>1650000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-09-23</ApprovalDate>
+    <EffectiveDate>2025-10-05</EffectiveDate>
+    <ApproverName>Robert Thompson</ApproverName>
+    <ApproverEmail>robert.thompson@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Brand purpose campaign - fitness and wellness</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-007</ApprovalID>
+    <CampaignID>RetroSneakers</CampaignID>
+    <CampaignName>Retro Sneaker Revival</CampaignName>
+    <ApprovedAmount>715000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-09-08</ApprovalDate>
+    <EffectiveDate>2025-09-22</EffectiveDate>
+    <ApproverName>Amanda Foster</ApproverName>
+    <ApproverEmail>amanda.foster@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Nostalgia-driven campaign for classic models</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-008</ApprovalID>
+    <CampaignID>TrainingClub</CampaignID>
+    <CampaignName>Nike Training Club App Promotion</CampaignName>
+    <ApprovedAmount>1050000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-09-14</ApprovalDate>
+    <EffectiveDate>2025-09-28</EffectiveDate>
+    <ApproverName>Kevin Park</ApproverName>
+    <ApproverEmail>kevin.park@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Mobile app acquisition campaign</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-009</ApprovalID>
+    <CampaignID>HolidaySeason2025</CampaignID>
+    <CampaignName>Holiday Season 2025 Campaign</CampaignName>
+    <ApprovedAmount>3500000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-10-15</ApprovalDate>
+    <EffectiveDate>2025-11-01</EffectiveDate>
+    <ApproverName>Catherine Lewis</ApproverName>
+    <ApproverEmail>catherine.lewis@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Major seasonal campaign - Q4 push</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-010</ApprovalID>
+    <CampaignID>BlackFriday</CampaignID>
+    <CampaignName>Black Friday 2025</CampaignName>
+    <ApprovedAmount>2800000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-10-20</ApprovalDate>
+    <EffectiveDate>2025-11-15</EffectiveDate>
+    <ApproverName>Marcus Johnson</ApproverName>
+    <ApproverEmail>marcus.johnson@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>High-impact promotional event</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-011</ApprovalID>
+    <CampaignID>SpringCollection2026</CampaignID>
+    <CampaignName>Spring Collection 2026</CampaignName>
+    <ApprovedAmount>2100000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-10-25</ApprovalDate>
+    <EffectiveDate>2026-02-01</EffectiveDate>
+    <ApproverName>Lisa Anderson</ApproverName>
+    <ApproverEmail>lisa.anderson@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Advance campaign for spring collection</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-012</ApprovalID>
+    <CampaignID>OlympicGames2026</CampaignID>
+    <CampaignName>Olympic Games 2026 Sponsorship</CampaignName>
+    <ApprovedAmount>5000000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-09-01</ApprovalDate>
+    <EffectiveDate>2025-10-15</EffectiveDate>
+    <ApproverName>James Wilson</ApproverName>
+    <ApproverEmail>james.wilson@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Major sports sponsorship</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-013</ApprovalID>
+    <CampaignID>EuroFootball</CampaignID>
+    <CampaignName>European Football Marketing</CampaignName>
+    <ApprovedAmount>1800000</ApprovedAmount>
+    <Currency>EUR</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-08-20</ApprovalDate>
+    <EffectiveDate>2025-09-10</EffectiveDate>
+    <ApproverName>Pierre Dubois</ApproverName>
+    <ApproverEmail>pierre.dubois@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>European market expansion</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-014</ApprovalID>
+    <CampaignID>AsianMarketPush</CampaignID>
+    <CampaignName>Asian Market Expansion Campaign</CampaignName>
+    <ApprovedAmount>2400000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-09-05</ApprovalDate>
+    <EffectiveDate>2025-10-01</EffectiveDate>
+    <ApproverName>Wei Zhang</ApproverName>
+    <ApproverEmail>wei.zhang@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>APAC region growth initiative</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-015</ApprovalID>
+    <CampaignID>YouthEngagement</CampaignID>
+    <CampaignName>Youth Engagement Campaign Gen Z</CampaignName>
+    <ApprovedAmount>1600000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-08-25</ApprovalDate>
+    <EffectiveDate>2025-09-12</EffectiveDate>
+    <ApproverName>Jessica Brooks</ApproverName>
+    <ApproverEmail>jessica.brooks@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>TikTok and Instagram focus for Gen Z</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-016</ApprovalID>
+    <CampaignID>SustainabilityInit</CampaignID>
+    <CampaignName>Sustainability Initiative Campaign</CampaignName>
+    <ApprovedAmount>950000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-08-18</ApprovalDate>
+    <EffectiveDate>2025-09-08</EffectiveDate>
+    <ApproverName>Dr. Susan Green</ApproverName>
+    <ApproverEmail>susan.green@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Environmental and social responsibility campaign</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-017</ApprovalID>
+    <CampaignID>MensFashionWeek</CampaignID>
+    <CampaignName>Mens Fashion Week Campaign</CampaignName>
+    <ApprovedAmount>1450000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-08-28</ApprovalDate>
+    <EffectiveDate>2025-09-15</EffectiveDate>
+    <ApproverName>Alessandro Rossi</ApproverName>
+    <ApproverEmail>alessandro.rossi@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Fashion event sponsorship and coverage</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-018</ApprovalID>
+    <CampaignID>WomensFashionWeek</CampaignID>
+    <CampaignName>Womens Fashion Week Campaign</CampaignName>
+    <ApprovedAmount>1550000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>GLOBAL-BRAND</CostCenter>
+    <ApprovalDate>2025-09-02</ApprovalDate>
+    <EffectiveDate>2025-09-18</EffectiveDate>
+    <ApproverName>Victoria Armour</ApproverName>
+    <ApproverEmail>victoria.armour@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Women fashion event sponsorship</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-019</ApprovalID>
+    <CampaignID>DigitalTransform</CampaignID>
+    <CampaignName>Digital Transformation Content Series</CampaignName>
+    <ApprovedAmount>1250000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-09-09</ApprovalDate>
+    <EffectiveDate>2025-09-28</EffectiveDate>
+    <ApproverName>Robert Hayes</ApproverName>
+    <ApproverEmail>robert.hayes@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Content marketing and thought leadership</Notes>
+  </Approval>
+
+  <Approval>
+    <ApprovalID>APR-020</ApprovalID>
+    <CampaignID>CustomerLoyal</CampaignID>
+    <CampaignName>Customer Loyalty Program Launch</CampaignName>
+    <ApprovedAmount>2200000</ApprovedAmount>
+    <Currency>USD</Currency>
+    <CostCenter>US-MARKETING-DIGITAL</CostCenter>
+    <ApprovalDate>2025-09-12</ApprovalDate>
+    <EffectiveDate>2025-10-08</EffectiveDate>
+    <ApproverName>Michelle Taylor</ApproverName>
+    <ApproverEmail>michelle.taylor@company.com</ApproverEmail>
+    <Status>APPROVED</Status>
+    <Notes>Loyalty program launch and promotion</Notes>
+  </Approval>
+</BudgetApprovals>

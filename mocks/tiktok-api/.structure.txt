@@ -1,0 +1,65 @@
+TikTok Ads API Mock Server - Project Structure
+==============================================
+
+/Users/chocho/projects/STAGEHAND/mocks/tiktok-api/
+│
+├── server.js                    Express.js server (3.7 KB)
+│   ├── GET /open_api/v1.3/campaign/get/
+│   ├── GET /open_api/v1.3/campaign/get/:campaign_id
+│   ├── GET /health
+│   └── Error handling + request ID generation
+│
+├── fixtures.json                Campaign test data (4.3 KB)
+│   └── 5 Nike TikTok campaigns with realistic metrics
+│
+├── package.json                 Node.js configuration (548 B)
+│   └── Dependencies: express@4.18.2
+│
+├── package-lock.json            Dependency lock file
+│
+├── Dockerfile                   Docker configuration (606 B)
+│   ├── Node.js 18-alpine base image
+│   ├── Port 3001 exposed
+│   └── Health check included
+│
+├── README.md                    Full documentation (6.9 KB)
+│   ├── Overview & features
+│   ├── Quick start (local & Docker)
+│   ├── API endpoint reference
+│   ├── Campaign fixtures table
+│   ├── Response format spec
+│   └── Testing examples
+│
+├── TESTING.md                   Testing guide (4.2 KB)
+│   ├── 6 curl test examples
+│   ├── Campaign ID reference
+│   ├── Docker testing
+│   ├── Integration patterns
+│   └── Troubleshooting
+│
+└── node_modules/                Installed dependencies
+
+Key Files Summary:
+- server.js: Core application logic
+- fixtures.json: Test data (5 campaigns)
+- package.json: Dependencies configuration
+- Dockerfile: Container configuration
+- README.md: Full documentation
+- TESTING.md: Testing examples & guide
+
+Configuration:
+- Port: 3001 (configurable via PORT env var)
+- Format: JSON (matching TikTok API)
+- Dependencies: Only Express.js
+- Status: Production-ready
+
+Endpoints:
+1. GET /open_api/v1.3/campaign/get/ (all campaigns + filters)
+2. GET /open_api/v1.3/campaign/get/:campaign_id (single campaign)
+3. GET /health (health check)
+
+Quick Commands:
+npm install          Install dependencies
+npm start            Start server on port 3001
+docker build -t tiktok-ads-mock . Build Docker image
+docker run -p 3001:3001 tiktok-ads-mock:latest Run container
