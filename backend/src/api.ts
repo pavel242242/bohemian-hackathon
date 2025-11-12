@@ -161,6 +161,7 @@ router.get('/status', async (req, res) => {
       { name: 'Meta', port: 3001 },
       { name: 'Google', port: 8000 },
       { name: 'TikTok', port: 3003 },
+      { name: 'Seznam', port: 3004 },
       { name: 'SOAP', port: 5001 },
     ];
 
