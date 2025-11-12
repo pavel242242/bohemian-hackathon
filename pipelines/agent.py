@@ -23,12 +23,31 @@ from driver_manager import DriverManager
 
 # Known API endpoints for different sources
 API_CONFIGS = {
+    'meta': {
+        'base_url': 'http://localhost:3001',
+        'endpoint': '/ads_archive',
+        'headers': {}
+    },
+    'google': {
+        'base_url': 'http://localhost:8000',
+        'endpoint': '/api/v1/campaigns',
+        'headers': {}
+    },
+    'tiktok': {
+        'base_url': 'http://localhost:3003',
+        'endpoint': '/api/v1/campaigns',
+        'headers': {}
+    },
     'seznam': {
         'base_url': 'http://localhost:3004',
         'endpoint': '/api/v2/campaigns',
         'headers': {'X-Seznam-Api-Key': 'demo_api_key_12345'}
     },
-    # Add more APIs as needed
+    'soap': {
+        'base_url': 'http://localhost:5001',
+        'endpoint': '/BudgetApproval/Service',
+        'headers': {'Content-Type': 'text/xml'}
+    }
 }
 
 class NikeCampaignsAgent:
@@ -322,13 +341,26 @@ class NikeCampaignsAgent:
                 TRY_CAST(created AS TIMESTAMP) as start_date,
                 TRY_CAST(updated AS TIMESTAMP) as end_date
             FROM marketing_data.seznam_campaigns
+
+            UNION ALL
+
+            SELECT
+                approval_id as campaign_id,
+                campaign_name,
+                'soap' as source,
+                'Budget System' as channel,
+                approved_amount as budget,
+                0 as impressions,
+                TRY_CAST(approval_date AS TIMESTAMP) as start_date,
+                NULL as end_date
+            FROM marketing_data.budget_approvals
         """
 
         # Build WHERE clauses
         where_clauses = []
 
-        # Source filtering
-        if intent['sources'] and len(intent['sources']) < 4:
+        # Source filtering (fixed: < 5 instead of < 4 to properly detect "all sources")
+        if intent['sources'] and len(intent['sources']) < 5:
             sources_str = "', '".join(intent['sources'])
             where_clauses.append(f"source IN ('{sources_str}')")
 

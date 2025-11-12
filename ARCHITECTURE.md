@@ -27,10 +27,10 @@ Simulates real advertising platform APIs with realistic features like pagination
 
 **Servers:**
 - **Meta Ads API** (Port 3001): Facebook/Instagram Ad Library mock
-- **Google Ads API** (Port 3002): Google Ads campaign mock
+- **Google Ads API** (Port 8000): Google Ads campaign mock
 - **TikTok Ads API** (Port 3003): TikTok campaign mock
 - **Seznam Ads API** (Port 3004): Complex Czech advertising platform with nested pagination
-- **SOAP Budget Service** (Port 8000): SOAP-based budget approval service
+- **SOAP Budget Service** (Port 5001): SOAP-based budget approval service
 
 ### 2. Data Pipelines (dlthub + Python)
 Extracts campaign data from APIs using dlthub sources and loads into DuckDB. Dynamically generates drivers for new APIs based on pattern discovery.
@@ -567,7 +567,7 @@ Response:
 }
 ```
 
-#### Google Ads API (Port 3002)
+#### Google Ads API (Port 8000)
 ```
 GET /campaigns?limit=50&page=1
 Response:
@@ -673,7 +673,7 @@ Response:
 }
 ```
 
-#### SOAP Budget Service (Port 8000)
+#### SOAP Budget Service (Port 5001)
 SOAP-based service for budget approval workflows. Implemented as Python SOAP server with complex XML handling.
 
 ---
@@ -790,10 +790,10 @@ Key transformations:
 
 This script starts all mock servers on their configured ports:
 - Meta: 3001
-- Google: 3002
+- Google: 8000
 - TikTok: 3003
 - Seznam: 3004
-- SOAP Budget: 8000
+- SOAP Budget: 5001
 
 #### 2. Set Up Python Environment
 ```bash
